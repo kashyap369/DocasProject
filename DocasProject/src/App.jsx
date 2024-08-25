@@ -1,10 +1,15 @@
 import React from 'react';
 import Background from './components/background';
+import Foreground from './components/Foreground';
+
 function App() {
   return (
-    <div className="w-full h-screen  bg-slate-400">
+    <div className="relative w-full h-screen  bg-slate-400">
       <Background/>
+      <Foreground/>
+    
     </div>
+
   );
 }
 
